@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>   </title>
+</head>
+<body >
+
+<!--body bgcolor="black" text="yellow" -->
+
+<!-- formulario de las matrices  A-B suma, resta y multilplicacion --> 
+<center>
+<form action="calculadora_matrices_2.php" method="POST">
+<table border=10>
+<tr align="center">
+<td colspan=7>
+OPERACIONES ENTRE MATRICES DE 3 X 3: SUMA, RESTA Y MULTIPLICAION 
+</td>
+</tr>
+<tr align="center">
+<td colspan=3>Matriz A</td>
+<td rowspan=4> +*- </td>
+<td colspan=3>Matriz B</td>
+</tr>
+<tr align="center">
+<td><input type="number" name="a11" placeholder=" a[1,1]" size=2 required=""></td>
+<td><input type="number" name="a12" placeholder=" a[1,2]" size=3 required=""></td>
+<td><input type="number" name="a13" placeholder=" a[1,3]" size=3 required=""></td>
+<td><input type="number" name="b11" placeholder=" b[1,1]" size=3 required=""></td>
+<td><input type="number" name="b12" placeholder=" b[1,2]" size=3 required=""></td>
+<td><input type="number" name="b13" placeholder=" b[1,3]" size=3 required=""></td>
+</tr>
+<tr align="center">
+<td><input type="number" name="a21" placeholder=" a[2,1]" size=3 required=""></td>
+<td><input type="number" name="a22" placeholder=" a[2,2]" size=3 required=""></td>
+<td><input type="number" name="a23" placeholder=" a[2,3]" size=3 required=""></td>
+<td><input type="number" name="b21" placeholder=" b[121]" size=3 required=""></td>
+<td><input type="number" name="b22" placeholder=" b[2,2]" size=3 required=""></td>
+<td><input type="number" name="b23" placeholder=" b[2,3]" size=3 required=""></td>
+</tr>
+<tr align="center">
+<td><input type="number" name="a31" placeholder=" a[131]" size=3 required=""></td>
+<td><input type="number" name="a32" placeholder=" a[3,2]" size=3 required=""></td>
+<td><input type="number" name="a33" placeholder=" a[3,3]" size=3 required=""></td>
+<td><input type="number" name="b31" placeholder=" b[3,1]" size=3 required=""></td>
+<td><input type="number" name="b32" placeholder=" b[3,2]" size=3 required=""></td>
+<td><input type="number" name="b33" placeholder=" b[3,3]" size=3 required=""></td>
+</tr>
+<tr align=center>
+<td colspan=7>
+
+<select name="operacion">
+        <option value="+">suma</option>
+        <option value="-">resta</option>
+        <option value="*">multiplicacion</option>
+        </select> 
+<input type="submit" name="cal" value="Calcular">
+</td>
+</tr>
+</table>
+</form>
+</center>
+
+ <!-- <form   action="matrices.php" method="POST">
+<input type="submit" name="matriz_A" value="matriz">
+</form>-->
+</body>
+</html>

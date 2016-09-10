@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>   </title>
+</head>
+<body >
+
+
+<body bgcolor="white" text="green" >
+ <center><h1>CALCULADORA DE MATRICES  3 X 3</h1><br></center>
+ 
+  <center>
+  <form   action="calculadora_matriz_1.php" method="POST"  >
+  <table border=30>
+  <td colspan=7>
+  <label><center> MATRIZ A </center></label>
+ 
+ <input type="number" name="m_00"  placeholder="m[f0,c0]" size="5" required="" />
+ <input type="number" name="m_01"  placeholder="m[f0,c1]" size="5" required="" />
+ <input type="number" name="m_02"  placeholder="m[f0,c2]" size="5" required="" /><br>
+
+ <input type="number" name="m_10"  placeholder="m[f1,c0]"  size="5" required=""/>
+ <input type="number" name="m_11"  placeholder=" m[f1,c1]" size="5" required=""/>
+ <input type="number" name="m_12"  placeholder="m[f1,c2]"  size="5" required=""/><br>
+
+ <input type="number" name="m_20"  placeholder=" m[f2,c0]" size="5" required=""/>
+ <input type="number" name="m_21"  placeholder=" m[f2,c1]" size="5" required=""/>
+ <input type="number" name="m_22"  placeholder=" m[f2,c2]" size="5" required=""/><br>
+ </tr>
+  </table>
+   
+   <select name="opr"> 
+        <option value="determinante">determinante</option>
+        <option value="inversa">inversa</option>
+        <option value="transpuesta">transpuesta</option>
+        <option value="multiplicar">multiplicar</option>
+        <option value="potenciar">matriz eleva a</option>
+        </select> 
+
+         
+    <input type="submit" value="Enviar" /><br>
+    <input name="multi" placeholder="multiplicar"  size="5" maxlength="5"  />
+    <input name="potencia" placeholder="potenciar" size="5" maxlength="5"  />
+</center><br><br>
+  
+</body>
+</html>
